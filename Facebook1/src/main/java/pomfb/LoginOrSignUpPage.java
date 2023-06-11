@@ -12,8 +12,7 @@ public class LoginOrSignUpPage {
 	private WebElement emailOrPhoneNo;
 	@FindBy(xpath="//input[@placeholder='Password']")
 	private WebElement password;
-	@FindBy(xpath="//input[@placeholder='Password']")
-	private WebElement password;
+
 	
 	@FindBy(xpath="//button[@data-testid='royal_login_button']")
 	private WebElement login;
